@@ -1,0 +1,19 @@
+/* GLOBAL */
+//Header scss
+@import './components//Header/Header.module.scss';
+//Carousel scss
+@import  './components/Carousel/Carousel.module.scss';
+//New In scss
+@import './components/NewIn/NewIn.module.scss';
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+

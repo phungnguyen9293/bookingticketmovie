@@ -1,0 +1,57 @@
+.carousel-item{
+  .caption{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    text-align: left;    
+    transform: translate(-50%, -50%);
+    color: white;
+    .span__title{
+      font-size: 14px;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      color: #fbbd61;
+    }
+    h1{
+      font-size: 52px;
+      font-weight: 300;
+      padding: 0;
+      letter-spacing: 3px;
+      margin: 0 0 10px;
+      color: white;
+    }
+    p{
+      font-size: 18px;
+      margin: 0 0 20px;
+    }
+    .carousel-icon{
+      color: white;
+      .limited{
+        display: inline-block;
+        font-size: 15px;
+        font-weight: 700;
+        line-height: 45px;
+        width: 48px;
+        height: 48px;
+        margin-right: 8px;
+        border: 2px solid white;
+        border-radius: 50%;
+        text-align: center;
+      }
+      button{
+        cursor: pointer;
+        display: inline-block;
+        width: 201px;
+        height: 48px;
+        background-image: linear-gradient(to right, #fbbd61, #ec7532);
+        border: none;
+        border-radius: 30px;
+        color: white;
+        letter-spacing: 2px;
+        i{
+          margin-right: 5px;
+        }
+      }
+    }
+  }
+}
