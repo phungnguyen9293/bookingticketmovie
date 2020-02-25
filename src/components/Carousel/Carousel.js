@@ -6,7 +6,7 @@ import { Carousel } from 'antd';
 export default class Carousels extends Component {
     render() {
         return (
-            <Carousel autoplay effect="fade">
+            <Carousel autoplay effect="fade" id="carousel">
                 <div className="carousel-item">
                     <img src="./img/hero-1.jpg" className="d-block w-100" alt="..." />
                     <div className="container caption  d-none d-md-block">

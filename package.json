@@ -6,6 +6,9 @@
     "@fortawesome/react-fontawesome": "^0.1.7",
     "antd": "^3.25.3",
     "axios": "^0.19.0",
+    "formik": "^2.1.2",
+    "magnific-popup": "^1.1.0",
+    "moment": "^2.24.0",
     "node-sass": "^4.13.0",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
@@ -16,7 +19,9 @@
     "redux": "^4.0.4",
     "redux-thunk": "^2.3.0",
     "slick-carousel": "^1.8.1",
-    "venobox": "^1.8.6"
+    "sweetalert2": "^9.7.1",
+    "venobox": "^1.8.6",
+    "yup": "^0.28.0"
   },
   "scripts": {
     "start": "react-scripts start",

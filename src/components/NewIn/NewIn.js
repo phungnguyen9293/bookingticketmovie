@@ -21,7 +21,7 @@ export default class NewIn extends Component {
          
         };
         return (
-            <div className="newIn">
+            <div className="newIn" id="newIn">
                 <h2>New in</h2>
                 <Slider {...settings} className="container slider">
                     <div className="item">

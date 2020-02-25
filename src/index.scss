@@ -5,6 +5,21 @@
 @import  './components/Carousel/Carousel.module.scss';
 //New In scss
 @import './components/NewIn/NewIn.module.scss';
+//Coming Soon scss
+@import './components/ComingSoon/ComingSoon.module.scss';
+//Promotion scss
+@import './components/Promotion/Promotion.module.scss';
+//Footer scss
+@import './components/Footer/Footer.module.scss';
+//Poster Movie scss
+@import './components/PosterMovie/PosterMovie.module.scss';
+//Booking Ticket scss
+@import './components/BookingTicket/BookingTicket.module.scss';
+//Account Info scss
+@import './components/AccountInfo/AccInfo.module.scss';
+//Admin Menu Scss
+@import './components/AdminMenu/AdminMenu.module.scss';
+
 
 * {
     margin: 0;

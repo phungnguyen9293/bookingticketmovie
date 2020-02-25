@@ -1,14 +1,15 @@
 import React, { Component } from 'react'
 
 export default class ComingSoon extends Component {
-    
+
     render() {
         return (
+            <div className="comingsoon " id="comingsoon">
             <div className="comingsoon__content container">
                 <h2>COMING SOON</h2>
                 <div className="row ">
                     <div className="col-6 comingsoon__details">
-                        <p>HORROR, THRILLER</p>
+                        <p className='comingsoon__title'>DRAMA, THRILLER</p>
                         <h3>Deepwater Horizon</h3>
                         <p><i className="fa fa-star" /> <i className="fa fa-star" />
                             <i className="fa fa-star" />
@@ -21,14 +22,19 @@ export default class ComingSoon extends Component {
                     </div>
                     <div className="col-6 comingsoon__video">
                         <div className="video__img">
-                            <img src="./img/bay-quy.jpg" alt=''/>
+                            <img src="./img/slide-1-video.png" alt='' />
                         </div>
+
+                        <a className="venobox" data-type="vimeo" href="https://vimeo.com/81143195">
+                        <i className="fa fa-play"></i>
+                        </a>
                         
-                        <a className="venobox vbox-item" data-vbtype='video' href="https://youtu.be/9-7EpUapYX0">Demo</a>
+                      
+
                     </div>
                 </div>
             </div>
-
+            </div>
         )
     }
 }

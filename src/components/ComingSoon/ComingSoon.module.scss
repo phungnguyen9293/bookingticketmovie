@@ -1,0 +1,89 @@
+.comingsoon{
+    background-image: url("/img/slide-3.png");
+    padding-top: 70px;
+    padding-bottom: 0px;
+    .comingsoon__content{
+        h2{
+            font-size: 18px;
+            margin-bottom: 40px;
+            padding-bottom: 20px;
+            letter-spacing: 1.7px;
+            color: #ec7532;
+            border-bottom: 1px solid #333;
+            position: relative;
+            width: 100%;
+            &::after{
+                content: '';
+                display: block;
+                width: 140px;
+                height: 4px;
+                background-image: linear-gradient(to right, #fbbd61, #ec7532);
+                position: absolute;
+                bottom: -1px;
+            }
+        }
+        .comingsoon__details{
+            margin: 70px 0;
+            .comingsoon__title{
+                color: #ec7532;
+                font-size: 14px;
+                letter-spacing: 2px;
+            }
+            h3{
+                font-size: 34px;
+            }
+            .fa-star{
+                font-size: 14px;
+                width: 14px;
+                color: #fbbd61;
+            }
+            .fa-calendar{
+                font-size: 14px;
+                margin: 0px 5px;
+            }
+            .comingsoon-text{
+                font-size: 16px;
+                padding-right: 50px;
+                margin: 20px 0;
+            }
+            a{
+                font-size: 12px;
+                letter-spacing: 4px;
+                color: #ec7532;
+                transition: all 0.5s;
+                &:hover{
+                    color: #fbbd61;
+                    text-decoration: none;
+                }
+            }
+        }
+        .comingsoon__video{
+            .video__img{
+                img{
+                    display: block;
+                    width: 100%;
+                    position: relative;
+                }
+            }
+            .venobox{
+                i{
+                    font-size: 40px;
+                    line-height: 75px;
+                    position: absolute;
+                    top: 30%;
+                    left: 45%;
+                    width: 80px;
+                    height: 80px;
+                    border: 2px solid #ec7532;
+                    border-radius: 50%;
+                    text-align: center;
+                    color: white;
+                    transition: all 0.5s;
+                    &:hover{
+                        transform: scale(0.8);
+                    }
+                }
+            }
+        }
+    }
+}

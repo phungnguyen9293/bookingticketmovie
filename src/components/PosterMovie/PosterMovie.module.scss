@@ -1,0 +1,246 @@
+.poster{
+    background-color: rgb(10, 32, 41);
+    height: 1370px;
+    .poster__top{
+    position: relative;
+    .bg-poster{
+        width: 100%;
+        height: 575px;
+        position: absolute;
+        top: -10%;
+        left: 0%;
+        filter: blur(15px);
+        }
+    .bg-gradient{
+        background: linear-gradient(to top, rgb(10, 32, 41), transparent 100%);
+        position: absolute;
+        top: 0%;
+        left: 0;
+        height: 107%;
+        width: 100%;
+        }
+    .container{
+        .poster_detail{
+            padding: 150px 90px;
+            margin: 0;
+            .col-3{
+                
+                img{
+                    width: 100%;
+                    border-radius: 4px;
+                    opacity: 1;
+                }
+                .trailer_button{   
+                    opacity: 0;
+                    &:hover{
+                     opacity: 1;
+                    }                
+                    i{
+                        position: absolute;
+                        top: 35%;
+                        left: 35%;
+                        font-size: 30px;
+                        border: 2px solid #ec7532;
+                        color: white;
+                        transition: all 0.2s;
+                        text-align: center;
+                        width: 70px;
+                        height: 70px;
+                        border-radius: 50%;
+                        line-height: 207%;
+                        
+                    }
+                }
+            }
+            .col-6{
+                position: absolute;
+                top: 32%;
+                left: 37%;
+                color: white;
+                width: 370px;
+                font-weight: 500;
+                p{
+                    font-size: 14px;
+                    color: #e9e9e9;
+                }
+                .age-limited{
+                    background-color: #ec7532;
+                    font-size: 16px;
+                    border-radius: 4px;
+                    margin-right: 6px;
+                    margin-top: 6px;
+                    padding: 0 5px;
+                    text-align: center;
+                    min-width: 33px;
+                }
+                .movie-name{
+                    font-size: 24px;
+                    color: #e9e9e9;
+                    overflow: hidden;
+                }
+                .movie-duration{
+                    font-size: 14px;
+                    color: #e9e9e9;
+                }
+                a{
+                    font-size: 16px;
+                    background-color: #ec7532;
+                    border-radius: 4px;
+                    text-align: center;
+                    padding: 7px 25px;
+                    transition: all .2s;
+                    margin-top: 25px;
+                    margin-bottom: 25px;
+                    border: none;
+                    outline: none;
+                    color: white;
+                    &:hover{
+                        background-color: #b42a14;
+                    }
+                }
+            }
+            .preview{
+                position: absolute;
+                top: 35%;
+                right: 2%;
+                padding: 0;
+                text-align: center;
+                .bar{
+                    position: relative;
+                    font-size: 126px;
+                    width: 126px;
+                    height: 126px;
+                    border: 7.5px solid #3a3a3a;
+                    border-radius: 50%;
+                    background-color: rgba(0, 0, 0, 0.4);
+                }
+                span{
+                    position: absolute;
+                    width: 100%;
+                    z-index: 1;
+                    right: 33.5%;
+                    top: 35%;
+                    line-height: 30px;
+                    font-size: 50px;
+                    color: #fff;
+                    text-align: center;
+                    display: block;
+                    white-space: nowrap;
+                }
+                .fill{
+                    position: absolute;
+                    border: 7.5px solid #7ed321;
+                    border-radius: 50%;
+                    width: 126px;
+                    height: 126px;
+                    clip:rect(0px, 115px,140px, 0px);
+                    transform: rotate(233deg);
+                    top: 0%;
+                    right: 66.9%;
+                }
+                .star{
+                    position: absolute;
+                    top: 100%;
+                    right: 70%;
+                    margin-top: 10px;
+                    .fa-star{
+                        width: 25px;
+                        height: 25px;
+                        font-size: 25px;
+                        color: #ec7532;
+                    }
+                }
+            }
+        }
+    }
+    }
+    .container{
+        .poster-information{
+            position: absolute;
+            left: 43%;           
+            .nav-tabs{
+                border-bottom: none;
+                .nav-item{
+                    color: #fff;
+                    font-size: 18px;
+                    line-height: 24px;
+                    height: 24px;
+                    background-color: transparent;
+                    border: none;
+                    transition: all .2s;
+                    cursor: pointer;
+                    font-weight: 500;
+                    &:hover{
+                        font-size: 20px;
+                    }
+                }
+                .active{
+                    font-size: 20px;
+                    color: #ec7532;
+                }
+            }
+            .tab-content{
+                background-color: white;
+                .tab-pane{
+                    .nav-pills{
+                        position: absolute;
+                        top: 215%;
+                        left: -230%;
+                        background-color: white;
+                        border-top-left-radius: 4px;
+                        border-bottom-left-radius: 4px;
+                        .nav-link{
+                            opacity: .5;
+                            .tabcinema{
+                                padding: 20px;
+                                img{
+                                    width: 50px;
+                                    height: 50px;
+                                    display: inline-block;
+                                }
+                                .cinema-name{
+                                    font-size: 16px;
+                                    display: inline-block;
+                                    color: #000;
+                                    margin-left: 10px;
+                                    font-weight: 500;
+                                }                                
+                            }
+                            &:hover{
+                                opacity: 1;
+                            }
+                        }
+                        .active{
+                            opacity: 1;
+                            background-color: white;
+                        }
+                    }
+                    .tab-content{
+                        width: 625px;
+                        height: 636px;
+                        position: absolute;
+                        top: 215%;
+                        right: -380%;
+                        padding: 10px 20px;
+                        border-top-right-radius: 4px;
+                        border-bottom-right-radius: 4px;
+                    }
+                }
+            }
+        }
+    }
+}
+    
+.lichChieuPhim{
+    background-color: rgba(246,246,246,.5);
+    color: #9b9b9b;
+    border-radius: 7px;
+    border: 1px solid #e4e4e4;
+    width: 20px;
+    height: 50px;
+    font-size: 25px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    padding: 5px;
+    text-align: center;
+}

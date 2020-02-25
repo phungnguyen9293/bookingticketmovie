@@ -1,0 +1,122 @@
+.promotion-title{
+    margin: 2% 29%;
+    .nav-tabs{
+        border: none;
+        .nav-item{
+        color: #000;
+        font-weight: bold;
+        font-size: 26px;
+        border: none;
+            &:hover{
+                color: #ec7532;
+            }
+        }
+        .active{
+            color: #ec7532;
+        }
+    }
+}
+.tab-content{
+    .tab-pane{
+        .row{
+        display: inline-flex;
+        margin: 0%;
+        .col-6{
+            .thumbnail{
+                img{
+                    width: 525px;
+                    height: 350px;
+                    display: inline-block;
+                    border-radius: 4px;
+
+                }
+            }
+            a{
+                color: #000;
+                margin-bottom: 5px;
+                p{
+                font-size: 16px;
+                line-height: 20px;
+                height: 42px;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                margin: 0 0 10px;
+                font-weight: 600;
+                &:hover{
+                    color: #ec7532;
+                }
+                }
+            }
+            .description{
+                text-align: justify;
+                font-size: 13px;
+                color: #4a4a4a;
+                padding: 0 5px 0 0;
+                line-height: 19px;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                height: 55px;
+                margin-bottom: 15px;
+            }
+        }
+        .promotion-more-info{
+            .col-4{
+                .thumbnail{
+                    img{
+                        width: 298px;
+                        height: 149px;
+                        display: inline-block;
+                        border-radius: 4px;
+                    }
+                }
+                a{
+                    color: #000;
+                    margin-bottom: 5px;
+                    p{
+                    font-size: 16px;
+                    line-height: 20px;
+                    height: 42px;
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+                    margin: 0 0 10px;
+                    font-weight: 600;
+                    &:hover{
+                        color: #ec7532;
+                    }
+                    }
+                }
+            }
+            .side-info{
+                li{
+                    display: block;
+                    position: relative;
+                    p{
+                        display: inline-flex;
+                        overflow: hidden;
+                        text-overflow: ellipsis;
+                        font-size: 16px;
+                        line-height: 20px;
+                        height: 42px;
+                        margin-bottom: 5px;
+                        padding-left: 5px;
+                        position: absolute;
+                        top: 0%;
+                        left: 18%;
+                        color: #4a4a4a;
+
+                    }
+                    div{
+                        a{
+                            img{
+                                display: block;
+                                margin-bottom: 12px;
+                                border-radius: 4px;
+                            }
+                        }
+                    }
+                }
+            }
+        } 
+    }       
+    }
+}
