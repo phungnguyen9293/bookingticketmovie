@@ -5,6 +5,7 @@ import screen from '../../assets/img/screen.png';
 import warning from '../../assets/img/exclamation.png';
 import { settings } from '../../config/settings';
 import { datVeXemPhimAction } from '../../redux/action/QuanLyUserAction';
+import Swal from 'sweetalert2';
 
 class BookingTicket extends Component {
 
@@ -98,12 +99,24 @@ class BookingTicket extends Component {
         //Lay tai khoan dang nhap tu localstorage
         let sUserLogin = localStorage.getItem(settings.userLogin);
         let userLogin = JSON.parse(sUserLogin);
-        let objectDatVe = {
-            "maLichChieu": this.props.match.params.showtimeID,
-            "danhSachVe": this.props.chiTietPhongVe.danhSachGhe.filter(gheDangDat => gheDangDat.dangDat === true),
-            "taiKhoanNguoiDung": userLogin.taiKhoan
+        
+        if(userLogin === null){
+            Swal.fire({
+                icon : 'error',
+                title: 'Vui lòng đăng nhập!'
+            }).then(res => {
+                window.location.href = '/signin'
+            })
+        }else{
+            let objectDatVe = {
+                "maLichChieu": this.props.match.params.showtimeID,
+                "danhSachVe": this.props.chiTietPhongVe.danhSachGhe.filter(gheDangDat => gheDangDat.dangDat === true),
+                "taiKhoanNguoiDung": userLogin.taiKhoan
+            }
+            this.props.datVe(objectDatVe);
+
         }
-        this.props.datVe(objectDatVe);
+        
     }
     render() {
         return (

@@ -15,20 +15,8 @@ export default class AdminMenu extends Component {
 
     render() {
         return (
-            <Layout style={{ minHeight: '100vh' }}>
-                <Sider collapsible collapsed={this.state.collapsed} onCollapse={this.onCollapse}>
-                    <div className="logo" />
-                    <Menu theme="dark" defaultSelectedKeys={['1']} mode="inline">
-                        <Menu.Item key="1">
-                            <NavLink to='/'><Icon type="form" />Sign In</NavLink>
-                        </Menu.Item>
-                        <Menu.Item key="2">
-                            <Icon type="desktop" />
-                            <span>Option 2</span>
-                        </Menu.Item>
-                    </Menu>
-                </Sider>
-            </Layout>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/N8oKDQIgSnk" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" sandbox="allow-popups allow-scripts" ></iframe>
         )
     }
 }
+

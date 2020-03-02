@@ -46,6 +46,10 @@ export const dangNhapNguoiDung = (values) => {
             })
         }).catch(err => {
             console.log(err)
+            Swal.fire({
+                icon : 'error',
+                title: 'Tài khoản hoặc mật khẩu không chính xác!'
+            })
         })
     }
 }
